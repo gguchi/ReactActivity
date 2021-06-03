@@ -6,7 +6,6 @@ import prod_image from '../../images/50061505_575246.png';
 
 function Cards(props){
     return(
-        <div className="container">
         <div className="container card">
             <div className="card__image">
                 <img src={prod_image} alt="" className="card__image--pic"/>
@@ -30,7 +29,6 @@ function Cards(props){
                     {props.original_price}
                 </div>
             </div>
-        </div>
         </div>
     
     

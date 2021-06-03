@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Header.scss';
 import {faUser} from '@fortawesome/free-regular-svg-icons'
 import {faShoppingBasket} from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -44,7 +45,7 @@ function Header() {
         <section class="navigation_banner">
             <section class="logo">
 
-                <h1 class="first">RAKU</h1><h1 class="last">TECH</h1>
+            <Link to={"/"}> <span className="logoLink"><h1 class="first">RAKU</h1><h1 class="last">TECH</h1> </span></Link>
 
             </section>
 
@@ -52,7 +53,7 @@ function Header() {
 
                 <ul>
                     <li class="dropdown"> 
-                        <a href="index.html" class="dropbtn">HOME</a>  
+                        <Link to="/"><a class="dropbtn">HOME</a></Link>  
                             <div class="dropdown_content">
 
                                 <div class="dropdown_container">
@@ -111,7 +112,7 @@ function Header() {
                     <li> <a href="product.html">IPHONE</a> </li>
                     <li> <a href="">IPAD</a> </li>
                     <li> <a href="">MACBOOK</a></li>
-                    <li> <a href="product.html">ACCESSORIES</a> </li>
+                    <li> <Link to="/Products">ACCESSORIES</Link></li>
             
                 </ul>
 

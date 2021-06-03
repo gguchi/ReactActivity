@@ -6,6 +6,8 @@ import productThumbnail3 from '../../images/Rectangle 5.png';
 import productThumbnail4 from '../../images/151101_bbd_sodc_blk_06.png';
 import productImagePink from '../../images/beats__1.png';
 import productImageRed from '../../images/beat-red.png';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faStar} from '@fortawesome/free-solid-svg-icons'
 import React, {useState} from 'react';
 
 
@@ -56,11 +58,12 @@ function DisplayProduct(){
                             </div>
                             <div className="product__details--rating">
                                 <div className="rating__star">
-                                    <i className="fas fa-star rating__star--yellow"></i>
-                                    <i className="fas fa-star rating__star--yellow"></i>
-                                    <i className="fas fa-star rating__star--yellow"></i>
-                                    <i className="fas fa-star rating__star--yellow"></i>
-                                    <i className="fas fa-star rating__star--gray"></i>
+                                <FontAwesomeIcon icon={faStar} className="rating__star--yellow"/>
+                                <FontAwesomeIcon icon={faStar} className="rating__star--yellow"/>
+                                <FontAwesomeIcon icon={faStar} className="rating__star--yellow"/>
+                                <FontAwesomeIcon icon={faStar} className="rating__star--yellow"/>
+                                <FontAwesomeIcon icon={faStar} className="rating__star--gray"/>
+
                                 </div>
                                 <div className="rating__reviews">
                                     0 reviews
@@ -108,7 +111,12 @@ function DisplayProduct(){
                                 <div className="circle__brown"></div>
                             </div>
                             <div className="product__details--size">
-                                Size:
+                                Size: 
+                                <select name="language_list" id="sizes">
+                                    <option value="extra-small">XS</option>
+                                    <option value="small">S</option>
+                                    <option value="medium">M</option>
+                                </select>
                             </div>
                             <div className="options">
                                 <div className="counter">
