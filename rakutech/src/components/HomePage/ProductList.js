@@ -1,6 +1,5 @@
 import './ProductList.scss'
 import Cards from './ProductCards.js'
-import ProductDetails from './ProductDetails.js'
 
 function ProductList(){
 

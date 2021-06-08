@@ -1,0 +1,21 @@
+$promo-text: #C1C8CE;
+
+.promo{
+    display: flex;
+    flex-direction: column;
+
+    .best-seller {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        font-family: 'Proxima Nova Rg';
+        font-size: 18px;
+        font-weight: bold;
+        color: $promo-text;
+    }
+
+    .prod_cards{
+
+        background-color: black;
+
+    }
+}

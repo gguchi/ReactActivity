@@ -53,7 +53,7 @@ function Header() {
 
                 <ul>
                     <li class="dropdown"> 
-                        <Link to="/"><a class="dropbtn">HOME</a></Link>  
+                    <li><Link to="/">HOME</Link></li>  
                             <div class="dropdown_content">
 
                                 <div class="dropdown_container">
