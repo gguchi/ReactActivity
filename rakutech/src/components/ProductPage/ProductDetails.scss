@@ -448,3 +448,57 @@ $tab: #F1F3F4;
         }
     }
 }
+
+.info{
+
+    background-color: #FAFAFB;
+    border-radius: 6px;
+
+    .info__nav{
+
+        display: flex;
+        padding: 20px 10px 20px 30px;
+        align-items: center;
+        
+        &--product, &--reviews, &--tab{
+
+            padding-right: 15px;
+            font-weight: bolder;
+
+            a{
+    
+                text-decoration: none;
+                color: black;
+
+            }
+            
+            .active{
+
+                color: #2E90E5;
+
+            }
+
+            .review__count{
+
+                width: 15px;
+                border: 1px solid transparent;
+                color: gray;
+                font-weight: 600;
+                font-size: 16px;
+                padding-top: 0px;
+                padding-bottom: 0px;
+                font-family: 'Proxima Nova Rg';
+
+            }
+
+        }
+
+    }
+
+    .info__text{
+
+        padding: 30px;
+        border-top: 5px solid #E5E8EA;
+
+    }
+}

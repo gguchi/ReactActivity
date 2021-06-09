@@ -158,10 +158,10 @@ function DisplayProduct(){
                     <div className="info">
                         <div className="info__nav">
                             <div className="info__nav--product">
-                                Product Information
+                                <a href="" className="active"> Product Information</a>
                             </div>
                             <div className="info__nav--reviews">
-                                Reviews 0
+                               <a href=""> Reviews </a> <input type="text" value="0" className="review__count"/>
                             </div>
                             <div className="info__nav--tab">
                                 Another tab
@@ -181,6 +181,7 @@ function DisplayProduct(){
                             Quisque in arcu id dui vulputate mollis eget non arcu.
                             Aenean et nulla purus.
                             Mauris vel tellus non nunc mattis lobortis.
+                            <br/><br/>
                             Nunc facilisis sagittis ullamcorper. Proin lectus ipsum, gravida et mattis vulputate, tristique
                             ut lectus.
                             Sed et lorem nunc.

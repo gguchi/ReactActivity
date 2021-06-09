@@ -1,7 +1,7 @@
 import './FeaturedProducts.scss'
-import featuredThumb1 from '../../images/c04297141.png'
-import featuredThumb2 from '../../images/PR-104-0015-002-8A.png'
-import featuredThumb3 from '../../images/50050995_530579.png'
+import featuredThumb1 from '../../../images/c04297141.png'
+import featuredThumb2 from '../../../images/PR-104-0015-002-8A.png'
+import featuredThumb3 from '../../../images/50050995_530579.png'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faStar} from '@fortawesome/free-solid-svg-icons'
 

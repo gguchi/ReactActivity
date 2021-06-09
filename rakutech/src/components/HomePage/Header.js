@@ -108,8 +108,8 @@ function Header() {
 
                             </div>
                     </li>
-                    <li> <a href="">STORE</a></li>
-                    <li> <a href="product.html">IPHONE</a> </li>
+                    <li> <Link to="">STORE</Link></li>
+                    <li> <a href="">IPHONE</a> </li>
                     <li> <a href="">IPAD</a> </li>
                     <li> <a href="">MACBOOK</a></li>
                     <li> <Link to="/Products">ACCESSORIES</Link></li>

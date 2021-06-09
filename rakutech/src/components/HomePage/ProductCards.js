@@ -1,14 +1,13 @@
 import './ProductCards.scss'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faStar} from '@fortawesome/free-solid-svg-icons'
-
-import prod_image from '../../images/50061505_575246.png';
+import productThumb_one from '../../images/50061505_575246.png';
 
 function Cards(props){
     return(
         <div className="container card">
             <div className="card__image">
-                <img src={prod_image} alt="" className="card__image--pic"/>
+                <img src={productThumb_one} alt="" className="card__image--pic"/>
             </div>
             <div className="card__title">
                 {props.prod_name}

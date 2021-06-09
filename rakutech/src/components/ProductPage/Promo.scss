@@ -5,17 +5,29 @@ $promo-text: #C1C8CE;
     flex-direction: column;
 
     .best-seller {
+
         margin-top: 50px;
         margin-bottom: 30px;
         font-family: 'Proxima Nova Rg';
         font-size: 18px;
         font-weight: bold;
         color: $promo-text;
+
     }
 
-    .prod_cards{
+    .card{
 
-        background-color: black;
+        padding: 20px 0 60px 0;
+        width: 90%;
+
+    }
+
+    .catalogue_item{
+        
+        margin-top: 50px;
+        width: 85%;
+        background-color: gray;
+        padding: 5px 0 50px 15px;
 
     }
 }
