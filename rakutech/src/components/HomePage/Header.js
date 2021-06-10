@@ -29,7 +29,7 @@ function Header() {
                 </div>
                 <div class="basket">
                 <i><FontAwesomeIcon icon={faShoppingBasket}/></i>
-                    <a href="checkout-page.html">Items</a>
+                    <Link to="/Checkout">Items</Link>
                     <div class="cost">$0.00</div>
                 </div>
 

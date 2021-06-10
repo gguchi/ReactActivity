@@ -3,6 +3,8 @@ import payment_method1 from '../../images/Western-union.png';
 import payment_method2 from '../../images/Group 19.png';
 import payment_method3 from '../../images/Paypal.png';
 import payment_method4 from '../../images/visa.jpg';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faFacebook, faTwitter} from '@fortawesome/free-brands-svg-icons'
 
 
 function Footer(){
@@ -29,8 +31,8 @@ function Footer(){
                     <p>Since the 1500, when an unkown printer took a gallery of type and scrambled.</p>
                     
                     <div className="smLogo">
-                        <div className="webLogo 1"><i className="fab fa-facebook-f"></i></div>
-                        <div className="webLogo 2"> <i className="fab fa-twitter"></i></div>
+                        <div className="webLogo 1"><FontAwesomeIcon icon={faFacebook}/></div>
+                        <div className="webLogo 2"><FontAwesomeIcon icon={faTwitter}/></div>
                     </div>
 
                 </div>

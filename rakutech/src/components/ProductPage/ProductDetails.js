@@ -6,8 +6,9 @@ import productThumbnail3 from '../../images/Rectangle 5.png';
 import productThumbnail4 from '../../images/151101_bbd_sodc_blk_06.png';
 import productImagePink from '../../images/beats__1.png';
 import productImageRed from '../../images/beat-red.png';
+import Counter from './Counter.js'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faStar} from '@fortawesome/free-solid-svg-icons'
+import {faStar, faHeart} from '@fortawesome/free-solid-svg-icons'
 import React, {useState} from 'react';
 
 
@@ -119,27 +120,14 @@ function DisplayProduct(){
                                 </select>
                             </div>
                             <div className="options">
-                                <div className="counter">
-                                    <div className="counter__button">
-                                        <div className="counter__button--minus">
-                                            <i className="fas fa-minus counter__button--minu-icon"></i>
-                                        </div>
-                                        <div className="counter__button--count">
-                                            <input type="text" className="counter__button--counter" value="0"/>
-                                            {/* <div className="counter__button--counter">0</div>*/}
-                                        </div>
-                                        <div className="counter__button--plus">
-                                            <i className="fas fa-plus counter__button--plus-plus"></i>
-                                        </div>
-                                    </div>
-                                </div>
+                                <Counter/>
                                 <div className="buttons">
                                     <div className="buttons__cart">
                                         <i className="fas fa-shopping-cart buttons__cart--icon"></i>
                                         Add To Cart
                                     </div>
                                     <div className="buttons__favorite">
-                                        <i className="far fa-heart"></i>
+                                        <FontAwesomeIcon icon={faHeart}/>
                                     </div>
                                 </div>
                             </div>
