@@ -1,0 +1,66 @@
+.list__view{
+
+    display: flex;
+    flex-basis: 100%;
+    width: 100%;
+    margin-left: 20px;
+    justify-items: flex-start;
+
+    .container{
+
+        display: flex;
+        padding: 10px 0 10px 0;
+
+        .image__container{
+
+            height: 270px;
+            width: 270px;
+            background-color: white;
+            border: 1px solid black;
+
+        }
+
+        .detail__container{
+
+            display: flex;
+            flex-direction: column;
+            flex-basis: 50%;
+            align-content: center;
+            margin-left: 20px;
+
+            .review__container{
+
+                display: flex;
+                align-content: center;
+
+                .review__number{
+
+                    display: flex;
+
+                    input{
+
+                        height: 23px;
+
+                    }
+
+                }
+
+                button{
+
+                    height: 23px;
+
+                }
+
+            }
+
+        }
+
+        .price__container{
+
+            display: flex;
+            flex-direction: row;
+
+        }
+
+    }
+}
