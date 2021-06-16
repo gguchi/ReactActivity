@@ -18,7 +18,7 @@ function Banner(){
                 <h1>iPhone X</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa harum eligendi placeat amet velit consequatur rem.</p>
 
-                <a href="#">MORE</a>
+                <a >MORE</a>
 
             </div>
 
