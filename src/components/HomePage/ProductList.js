@@ -8,12 +8,12 @@ function ProductList(){
         <div className="ProductList">
             <h3>BEST SELLER</h3>
             <div className="navigation_bar">
-                <a href="">All</a>
-                <a href="">Mac</a>
-                <a href="">iPhone</a>
-                <a href="">iPad</a>
-                <a href="">iPod</a>
-                <a href="">Accessories</a>    
+                <a href="#">All</a>
+                <a href="#">Mac</a>
+                <a href="#">iPhone</a>
+                <a href="#">iPad</a>
+                <a href="#">iPod</a>
+                <a href="#">Accessories</a>    
             </div>    
             <div className="container">
 

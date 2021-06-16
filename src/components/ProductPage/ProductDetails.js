@@ -45,12 +45,12 @@ function DisplayProduct(){
             <div className="container-product__wrapper">
                     <div className="product">
                         <div className="product__image">
-                            <img src={prodImg} alt="" className="pic"/>
+                            <img src={prodImg} alt="#" className="pic"/>
                             <div className="image-set">
-                                <img src={productThumbnail1} alt="" className="image-set__item"/>
-                                <img src={productThumbnail2} alt="" className="image-set__item"/>
-                                <img src={productThumbnail3} alt="" className="image-set__item image-set__item--active"/>
-                                <img src={productThumbnail4} alt="" className="image-set__item"/>
+                                <img src={productThumbnail1} alt="#" className="image-set__item"/>
+                                <img src={productThumbnail2} alt="#" className="image-set__item"/>
+                                <img src={productThumbnail3} alt="#" className="image-set__item image-set__item--active"/>
+                                <img src={productThumbnail4} alt="#" className="image-set__item"/>
                             </div>
                         </div>
                         <div className="product__details">
@@ -146,10 +146,10 @@ function DisplayProduct(){
                     <div className="info">
                         <div className="info__nav">
                             <div className="info__nav--product">
-                                <a href="" className="active"> Product Information</a>
+                                <a href="#" className="active"> Product Information</a>
                             </div>
                             <div className="info__nav--reviews">
-                               <a href=""> Reviews </a> <input type="text" value="0" className="review__count"/>
+                               <a href="#"> Reviews </a> <input type="text" value="0" className="review__count"/>
                             </div>
                             <div className="info__nav--tab">
                                 Another tab
