@@ -5,32 +5,32 @@ function Banner(){
 
     return(
 
-        <section className="product_banner">
+        <section class="product_banner">
 
-            <div className="product_previous">
+            <div class="product_previous">
 
-                <i className="fal fa-chevron-left"></i>
+                <i class="fal fa-chevron-left"></i>
 
             </div>
 
-            <div className="product_banner_text">
+            <div class="product_banner_text">
 
                 <h1>iPhone X</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa harum eligendi placeat amet velit consequatur rem.</p>
 
-                <li>MORE</li>
+                <li>MORE
 
             </div>
 
-            <div className="product_banner_image">
+            <div class="product_banner_image">
 
                 <img src={banner_img} alt=""/>
 
             </div>
 
-            <div className="product_next">
+            <div class="product_next">
 
-                <i className="fal fa-chevron-right"></i>
+                <i class="fal fa-chevron-right"></i>
 
             </div>
 
