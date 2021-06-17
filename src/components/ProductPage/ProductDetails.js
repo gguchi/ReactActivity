@@ -70,7 +70,7 @@ function DisplayProduct(){
                                     0 reviews
                                 </div>
                                 <div className="rating__button">
-                                    <li>Submit a review
+                                    <a >Submit a review</a>
                                 </div>
                             </div>
                             <div className="product__details--price">
@@ -146,10 +146,10 @@ function DisplayProduct(){
                     <div className="info">
                         <div className="info__nav">
                             <div className="info__nav--product">
-                                <a  className="active"> Product Information
+                                <a  className="active"> Product Information</a>
                             </div>
                             <div className="info__nav--reviews">
-                               <li> Reviews  <input type="text" value="0" className="review__count"/>
+                               <a > Reviews </a> <input type="text" value="0" className="review__count"/>
                             </div>
                             <div className="info__nav--tab">
                                 Another tab

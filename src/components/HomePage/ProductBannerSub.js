@@ -12,7 +12,7 @@ function ProductBannerSub(props){
             <h1>{props.name}</h1>
             <p>Performance and Design. Taken right to the edge.</p>
 
-            <li> SHOP NOW
+            <a > SHOP NOW</a>
 
         </div>
 
