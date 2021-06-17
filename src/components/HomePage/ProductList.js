@@ -8,12 +8,12 @@ function ProductList(){
         <div className="ProductList">
             <h3>BEST SELLER</h3>
             <div className="navigation_bar">
-                <a >All</a>
-                <a >Mac</a>
-                <a >iPhone</a>
-                <a >iPad</a>
-                <a >iPod</a>
-                <a >Accessories</a>    
+                <li>All
+                <li>Mac
+                <li>iPhone
+                <li>iPad
+                <li>iPod
+                <li>Accessories    
             </div>    
             <div className="container">
 
@@ -28,7 +28,7 @@ function ProductList(){
 
             </div>
 
-            <a href="load_more" className="load_product">LOAD MORE</a>
+            <a href="load_more" className="load_product">LOAD MORE
 
         </div>
 

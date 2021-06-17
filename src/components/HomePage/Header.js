@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <div className="App">
-        <header class="header">
+        <header className="header">
 
-            <div class="language_switcher">
+            <div className="language_switcher">
 
                 <select name="language_list" id="language">
                     <option value="english">ENG</option>
@@ -21,86 +21,86 @@ function Header() {
 
             </div>
 
-            <div class="session_details">
+            <div className="session_details">
 
-                <div class="profile">    
+                <div className="profile">    
                     <i><FontAwesomeIcon icon={faUser}/></i>
                     <a href="sign-in.html"> My profile </a>
                 </div>
-                <div class="basket">
+                <div className="basket">
                 <i><FontAwesomeIcon icon={faShoppingBasket}/></i>
                     <Link to="/Checkout">Items</Link>
-                    <div class="cost">$0.00</div>
+                    <div className="cost">$0.00</div>
                 </div>
 
-                <div class="session_search">
-                    <input type="text" name="search" class="session_search_box" />
-                    <button type="submit"><i class="fas fa-search"></i></button>
+                <div className="session_search">
+                    <input type="text" name="search" className="session_search_box" />
+                    <button type="submit"><i className="fas fa-search"></i></button>
                 </div>
 
             </div>
 
         </header>
 
-        <section class="navigation_banner">
-            <section class="logo">
+        <section className="navigation_banner">
+            <section className="logo">
 
-            <Link to={"/"}> <span className="logoLink"><h1 class="first">RAKU</h1><h1 class="last">TECH</h1> </span></Link>
+            <Link to={"/"}> <span className="logoLink"><h1 className="first">RAKU</h1><h1 className="last">TECH</h1> </span></Link>
 
             </section>
 
-            <nav class="navigation_bar">
+            <nav className="navigation_bar">
 
                 <ul>
-                    <li class="dropdown"> 
+                    <li className="dropdown"> 
                     <li><Link to="/">HOME</Link></li>  
-                            <div class="dropdown_content">
+                            <div className="dropdown_content">
 
-                                <div class="dropdown_container">
+                                <div className="dropdown_container">
 
-                                    <div class="content_container">
+                                    <div className="content_container">
 
                                         <h2>Category</h2>
-                                        <a >Airport & Wireless</a>
-                                        <a >Apple Care</a>
-                                        <a >Bags, Shells & Sleeves</a>
-                                        <a >Business & Security</a>
-                                        <a >Cables & Docks</a>
+                                        <li>Airport  Wireless</li>
+                                        <li>Apple Care</li>
+                                        <li>Bags, Shells  Sleeves</li>
+                                        <li>Business  Security</li>
+                                        <li>Cables  Docks</li>
                                         
                                     </div>
 
-                                    <div class="content_container sub">
+                                    <div className="content_container sub">
 
-                                        <a >Camera & Videos</a>
-                                        <a >Car & Travel</a>
-                                        <a >Cases & Films</a>
+                                        <li>Camera  Videos</li>
+                                        <li>Car  Travel</li>
+                                        <li>Cases  Films</li>
 
                                     </div>
                                     
-                                    <div class="content_container second">
+                                    <div className="content_container second">
 
                                         <h2>Category</h2>
-                                        <a >Chargin Devices</a>
-                                        <a >Connected Home</a>
-                                        <a >Device Care</a>
-                                        <a >Display & Graphic</a>
-                                        <a >Fitness & Sport</a>
+                                        <li>Chargin Devices</li>
+                                        <li>Connected Home</li>
+                                        <li>Device Care</li>
+                                        <li>Display  Graphic</li>
+                                        <li>Fitness  Sport</li>
                                     
                                     </div>
 
-                                    <div class="content_container second_sub">
+                                    <div className="content_container second_sub">
 
-                                        <a >Headphones</a>
-                                        <a >Healthkit</a>
+                                        <li>Headphones</li>
+                                        <li>Healthkit</li>
 
                                     </div>
 
-                                    <div class="content_container third">
+                                    <div className="content_container third">
 
                                         <h2>Category</h2>
-                                        <a >Mice & Keyboards</a>
-                                        <a >Music Creation</a>
-                                        <a >Networking & Server</a>
+                                        <li>Mice  Keyboards</li>
+                                        <li>Music Creation</li>
+                                        <li>Networking  Server</li>
                                     
                                     </div>
 
@@ -109,9 +109,9 @@ function Header() {
                             </div>
                     </li>
                     <li> <Link to="/Store">STORE</Link></li>
-                    <li> <a> IPHONE</a></li>
-                    <li> <a >IPAD</a> </li>
-                    <li> <a >MACBOOK</a></li>
+                    <li> IPHONE</li>
+                    <li> IPAD </li>
+                    <li> MACBOOK</li>
                     <li> <Link to="/Products">ACCESSORIES</Link></li>
             
                 </ul>
