@@ -1,7 +1,7 @@
 import './ProductCards.scss'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faStar} from '@fortawesome/free-solid-svg-icons'
-import productThumb_one from '../../images/50061505_575246.png';
+import productThumb_one from '../../images/products/50061505_575246.png';
 
 function Cards(props){
     return(

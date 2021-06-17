@@ -1,10 +1,14 @@
 import './Checkout.scss'
 import Counter from '../../components/ProductPage/Counter.js'
+import Header from '../HomePage/Header';
+import Footer from '../HomePage/Footer';
 
 function CheckoutPage(){
 
     return(
 
+        <>
+        <Header/>
         <div className="checkout">
             
             <div className="checkout__header">
@@ -74,6 +78,8 @@ function CheckoutPage(){
                 </div>
             </div>
         </div>
+        <Footer/>
+        </>
 
     )
 

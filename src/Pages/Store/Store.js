@@ -8,12 +8,16 @@ import ListFilter from '../../components/Store/ListFilter';
 import './Store.scss'
 import ListView from '../../components/Store/ListView';
 import Pagination from '../../components/Store/Pagination';
+import Header from '../../components/HomePage/Header';
+import Footer from '../../components/HomePage/Footer';
 
 
 function Store(){
 
     return(
-
+        
+        <>
+        <Header/>
         <div className="container">
             
             <div className="store">
@@ -57,7 +61,10 @@ function Store(){
             </div>
 
         </div>
-        </div>
+        
+    </div>
+    <Footer/>
+    </>        
 
     );
 

@@ -1,5 +1,5 @@
 import Cards from '../../components/HomePage/ProductCards.js'
-import relatedThumb_one from '../../images/ipad-2020-hero-landing.jpg'
+import relatedThumb_one from '../../images/products/ipad-2020-hero-landing.jpg'
 import './RelatedProducts.scss'
 
 

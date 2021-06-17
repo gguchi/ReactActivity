@@ -3,6 +3,7 @@ import './Header.scss';
 import {faUser} from '@fortawesome/free-regular-svg-icons'
 import {faShoppingBasket} from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom';
+import SignIn from '../../Pages/SignIn/SignIn.js';
 
 function Header() {
   return (
@@ -25,11 +26,11 @@ function Header() {
 
                 <div class="profile">    
                     <i><FontAwesomeIcon icon={faUser}/></i>
-                    <a href="sign-in.html"> My profile </a>
+                    <Link to={"/SignIn"}> My profile </Link>
                 </div>
                 <div class="basket">
                 <i><FontAwesomeIcon icon={faShoppingBasket}/></i>
-                    <Link to="/Checkout">Items</Link>
+                    <Link to={"/Checkout"}>Items</Link>
                     <div class="cost">$0.00</div>
                 </div>
 

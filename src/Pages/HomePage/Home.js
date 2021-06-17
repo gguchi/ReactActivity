@@ -7,12 +7,15 @@ import Services from '../../components/HomePage/Services.js'
 import News from '../../components/HomePage/News.js'
 import FeaturedProducts from '../../components/HomePage/FeaturedProducts/FeaturedProducts.js'
 import PageSearch from '../../components/HomePage/PageSearch.js'
+import Header from '../../components/HomePage/Header.js'
+import Footer from '../../components/HomePage/Footer.js'
 
 function Home(){
 
     return(
 
-        <div>      
+        <div>
+            <Header/>      
             <Banner/>
             <Products />
             <ProductList />
@@ -21,6 +24,7 @@ function Home(){
             <News />
             <FeaturedProducts />
             <PageSearch/>
+            <Footer/>
             
         </div>
     )
