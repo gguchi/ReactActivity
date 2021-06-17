@@ -12,13 +12,13 @@ function ProductBannerSub(props){
             <h1>{props.name}</h1>
             <p>Performance and Design. Taken right to the edge.</p>
 
-            <a href="#"> SHOP NOW</a>
+            <a href=""> SHOP NOW</a>
 
         </div>
 
         <div className="product_banner_image_sub">
 
-            <img src={subBannerImage} alt="#"/>
+            <img src={subBannerImage} alt=""/>
 
         </div>
 

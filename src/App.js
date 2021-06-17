@@ -3,7 +3,7 @@ import Header from './components/HomePage/Header.js'
 import Footer from './components/HomePage/Footer.js'
 import Products from './Pages/Products/ProductPage.js'
 import Checkout from './components/Checkout/CheckoutPage.js'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import Store from './Pages/Store/Store.js'
 
 function App() {
