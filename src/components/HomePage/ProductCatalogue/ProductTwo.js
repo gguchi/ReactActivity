@@ -5,11 +5,11 @@ function ProductTwo(){
 
     return(
 
-        <div class="catalogue_item two">
+        <div className="catalogue_item two">
 
         <img src={catalouge_img2} alt=""/>
 
-        <div class="product_details">
+        <div className="product_details">
             <h2>Oculus Rift</h2>
             <p>$349</p>
         </div>

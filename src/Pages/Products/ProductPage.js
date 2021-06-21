@@ -5,8 +5,9 @@ import './ProductPage.scss'
 import RelatedProducts from '../../components/ProductPage/RelatedProducts.js'
 import Header from '../../components/HomePage/Header.js'
 import Footer from '../../components/HomePage/Footer.js'
+import {connect} from 'react-redux'
 
-function Products(){
+function Products({products}){
 
     return(
 
@@ -14,7 +15,9 @@ function Products(){
             <Header/>
             <SubNav />
             <div className="products product_details">
-            <ProductDetails />
+            {products.map((prod) => {
+                <ProductDetails key={prod.id} productData={prod}/>
+            })}
                 <div className="promo_container">
                     <Promo />
                 </div>
@@ -27,4 +30,12 @@ function Products(){
 
 }
 
-export default Products;
+const mapStateToProps = state => {
+
+    return{
+        products: state.check.products,
+    }
+
+}
+
+export default connect(mapStateToProps)(Products);

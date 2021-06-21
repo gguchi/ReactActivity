@@ -8,9 +8,9 @@ import SignIn from '../../Pages/SignIn/SignIn.js';
 function Header() {
   return (
     <div className="App">
-        <header class="header">
+        <header className="header">
 
-            <div class="language_switcher">
+            <div className="language_switcher">
 
                 <select name="language_list" id="language">
                     <option value="english">ENG</option>
@@ -22,44 +22,44 @@ function Header() {
 
             </div>
 
-            <div class="session_details">
+            <div className="session_details">
 
-                <div class="profile">    
+                <div className="profile">    
                     <i><FontAwesomeIcon icon={faUser}/></i>
                     <Link to={"/SignIn"}> My profile </Link>
                 </div>
-                <div class="basket">
+                <div className="basket">
                 <i><FontAwesomeIcon icon={faShoppingBasket}/></i>
                     <Link to={"/Checkout"}>Items</Link>
-                    <div class="cost">$0.00</div>
+                    <div className="cost">$0.00</div>
                 </div>
 
-                <div class="session_search">
-                    <input type="text" name="search" class="session_search_box" />
-                    <button type="submit"><i class="fas fa-search"></i></button>
+                <div className="session_search">
+                    <input type="text" name="search" className="session_search_box" />
+                    <button type="submit"><i className="fas fa-search"></i></button>
                 </div>
 
             </div>
 
         </header>
 
-        <section class="navigation_banner">
-            <section class="logo">
+        <section className="navigation_banner">
+            <section className="logo">
 
-            <Link to={"/"}> <span className="logoLink"><h1 class="first">RAKU</h1><h1 class="last">TECH</h1> </span></Link>
+            <Link to={"/"}> <span className="logoLink"><h1 className="first">RAKU</h1><h1 className="last">TECH</h1> </span></Link>
 
             </section>
 
-            <nav class="navigation_bar">
+            <nav className="navigation_bar">
 
                 <ul>
-                    <li class="dropdown"> 
+                    <li className="dropdown"> 
                     <li><Link to="/">HOME</Link></li>  
-                            <div class="dropdown_content">
+                            <div className="dropdown_content">
 
-                                <div class="dropdown_container">
+                                <div className="dropdown_container">
 
-                                    <div class="content_container">
+                                    <div className="content_container">
 
                                         <h2>Category</h2>
                                         <a href="#">Airport & Wireless</a>
@@ -70,7 +70,7 @@ function Header() {
                                         
                                     </div>
 
-                                    <div class="content_container sub">
+                                    <div className="content_container sub">
 
                                         <a href="#">Camera & Videos</a>
                                         <a href="#">Car & Travel</a>
@@ -78,7 +78,7 @@ function Header() {
 
                                     </div>
                                     
-                                    <div class="content_container second">
+                                    <div className="content_container second">
 
                                         <h2>Category</h2>
                                         <a href="#">Chargin Devices</a>
@@ -89,14 +89,14 @@ function Header() {
                                     
                                     </div>
 
-                                    <div class="content_container second_sub">
+                                    <div className="content_container second_sub">
 
                                         <a href="#">Headphones</a>
                                         <a href="#">Healthkit</a>
 
                                     </div>
 
-                                    <div class="content_container third">
+                                    <div className="content_container third">
 
                                         <h2>Category</h2>
                                         <a href="#">Mice & Keyboards</a>

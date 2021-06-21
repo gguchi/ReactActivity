@@ -38,7 +38,6 @@ function DisplayProduct(){
     const [prodPrice, setPrice] = useState(productPrice);
     const [prodImg, setImg] = useState(productImage);
 
-
     return(
 
         <div className="container-product">

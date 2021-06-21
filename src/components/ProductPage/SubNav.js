@@ -5,20 +5,20 @@ function SubNav(){
 
     return(
         <section>
-            <div class="link-bar">
-                <div class="link-bar__home">
+            <div className="link-bar">
+                <div className="link-bar__home">
                 <Link to="/" className="links">Home</Link>
                 </div>
-                <div class="link-bar__slash">
+                <div className="link-bar__slash">
                     /
                 </div>
-                <div class="link-bar__accessories">
+                <div className="link-bar__accessories">
                     Accessories
                 </div>
-                <div class="link-bar__slash">
+                <div className="link-bar__slash">
                     /
                 </div>
-                <div class="link-bar__title">
+                <div className="link-bar__title">
                     Beat Solo2 on Ear Headphones - Black
                 </div>
             </div>

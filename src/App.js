@@ -5,8 +5,12 @@ import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Store from './Pages/Store/Store.js'
 import SignIn from './Pages/SignIn/SignIn.js'
 import SignUp from './Pages/SignUp/SignUp.js'
+import {useSelector, useDispatch} from 'react-redux'
 
 function App() {
+
+  const counter = useSelector(state => state.counter);
+  const dispatch = useDispatch();
   return (
     <Router>
     <Switch>

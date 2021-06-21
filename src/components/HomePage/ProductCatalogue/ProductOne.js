@@ -5,9 +5,9 @@ function ProductOne(){
 
     return(
 
-        <div class="catalogue_item one">
+        <div className="catalogue_item one">
                 
-        <div class="product_details">
+        <div className="product_details">
 
             <h1>iPhone 6</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>

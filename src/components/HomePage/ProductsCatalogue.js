@@ -8,7 +8,7 @@ function Products(){
 
     return(
 
-        <div class="product_catalogue">
+        <div className="product_catalogue">
             <ProductOne />
             <ProductTwo />
             <ProductThree />
