@@ -1,7 +1,12 @@
-import './ProductList.scss'
-import Cards from './ProductCards.js'
+import './ProductList.scss';
+import Cards from './ProductCards.js';
+import {connect} from 'react-redux';
+import LocalProducts from '../ProductPage/LocalProducts';
 
-function ProductList(){
+const ProductList = ({products}) =>{
+
+    const li = 0;
+    const maxCards = 8;
 
     return(
 
@@ -17,6 +22,9 @@ function ProductList(){
             </div>    
             <div className="container">
 
+            <LocalProducts/>
+
+{/*                
             <Cards original_price="$599" discounted_price="$499" prod_name="Apple MacBook Pro"/>
             <Cards original_price="$599" discounted_price="$499" prod_name="Apple MacBook Pro"/>
             <Cards original_price="$599" discounted_price="$499" prod_name="Apple MacBook Pro"/>
@@ -24,7 +32,7 @@ function ProductList(){
             <Cards original_price="$599" discounted_price="$499" prod_name="Apple MacBook Pro"/>
             <Cards original_price="$599" discounted_price="$499" prod_name="Apple MacBook Pro"/>
             <Cards original_price="$599" discounted_price="$499" prod_name="Apple MacBook Pro"/>
-            <Cards original_price="$599" discounted_price="$499" prod_name="Apple MacBook Pro"/>
+            <Cards original_price="$599" discounted_price="$499" prod_name="Apple MacBook Pro"/> */}
 
             </div>
 
@@ -35,5 +43,10 @@ function ProductList(){
     )
 
 }
+const mapStateToProps = state => {
+    return{
+        products: state.shop.products,
+    };
+};
 
-export default ProductList;
+export default connect(mapStateToProps)(ProductList);

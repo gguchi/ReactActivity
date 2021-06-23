@@ -12,7 +12,7 @@ import {faStar, faHeart} from '@fortawesome/free-solid-svg-icons'
 import React, {useState} from 'react';
 
 
-function DisplayProduct(){
+const Product = ({productData}) =>{
 
     const changeColorPink = (productName) =>{
 
@@ -44,7 +44,7 @@ function DisplayProduct(){
             <div className="container-product__wrapper">
                     <div className="product">
                         <div className="product__image">
-                            <img src={prodImg} alt="" className="pic"/>
+                            <img src={productData.image} alt="" className="pic"/>
                             <div className="image-set">
                                 <img src={productThumbnail1} alt="" className="image-set__item"/>
                                 <img src={productThumbnail2} alt="" className="image-set__item"/>
@@ -54,7 +54,7 @@ function DisplayProduct(){
                         </div>
                         <div className="product__details">
                             <div className="product__details--title">
-                                {prodName}
+                                {productData.title}
                             </div>
                             <div className="product__details--rating">
                                 <div className="rating__star">
@@ -179,7 +179,6 @@ function DisplayProduct(){
                 </div>
 
     );
-
 }
 
-export default DisplayProduct;
+export default Product;

@@ -11,6 +11,7 @@ function App() {
 
   const counter = useSelector(state => state.counter);
   const dispatch = useDispatch();
+
   return (
     <Router>
     <Switch>
@@ -25,6 +26,7 @@ function App() {
       </Switch>  
       </Router>
   );
+  
 }
 
 export default App;

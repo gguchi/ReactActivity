@@ -36,6 +36,6 @@ export const loadItem = (item) => {
     return{
         type: cartFunction.LOAD_ITEM,
         payload: item,
-    }
+    };
 
-}
+};

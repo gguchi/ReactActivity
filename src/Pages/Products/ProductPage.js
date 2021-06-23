@@ -7,20 +7,22 @@ import Header from '../../components/HomePage/Header.js'
 import Footer from '../../components/HomePage/Footer.js'
 import {connect} from 'react-redux'
 
-function Products({products}){
+const Products = ({products}) =>{
 
     return(
 
         <div>
             <Header/>
             <SubNav />
+
             <div className="products product_details">
-            {products.map((prod) => {
+            {products.map((prod) => (
                 <ProductDetails key={prod.id} productData={prod}/>
-            })}
-                <div className="promo_container">
-                    <Promo />
-                </div>
+            ))}
+        
+            <div className="promo_container">
+                <Promo />
+            </div>
             </div>
             <RelatedProducts/>
             <Footer/>
@@ -31,11 +33,9 @@ function Products({products}){
 }
 
 const mapStateToProps = state => {
-
     return{
-        products: state.check.products,
-    }
-
-}
+        products: state.shop.products,
+    };
+};
 
 export default connect(mapStateToProps)(Products);

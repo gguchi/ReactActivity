@@ -9,7 +9,7 @@ const reducers = combineReducers({
 
     counter: counterReducer,
     logged : logged,
-    check: cartReducers
+    shop: cartReducers
 
 });
 
